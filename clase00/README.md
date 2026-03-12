@@ -1,0 +1,3 @@
+#clase00
+
+Objeto...
