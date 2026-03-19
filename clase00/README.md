@@ -8,9 +8,9 @@
 
 03- tengo robots de juguete
 
-04- veo las nubes con atencion
+04- me gusta mirar arriba
 
-05- me gusta dibujar
+05- disfruto dibujar
 
 06- caminar solo
 
@@ -20,4 +20,4 @@
 
 09- friki?
 
-10- disfruto los colores en el cielo
+10- 
