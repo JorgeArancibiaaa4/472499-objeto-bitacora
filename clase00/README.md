@@ -20,4 +20,4 @@
 
 09- friki?
 
-10- 
+10- el lapiz escripto verde y azul son mis favoritos
