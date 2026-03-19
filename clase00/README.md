@@ -2,7 +2,7 @@
 
 10 cualidades.
 
-01- soy disperso
+01- disperso
 
 02- desordenado
 
