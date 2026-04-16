@@ -8,24 +8,24 @@ y para la z utilice los datos de una persona que fue a dar una vuelta a la manza
 
 ACA EL ARCHIVO CSV
 tiempo	calma	correr
-1	         14	28
-2	        16	30
-3	         18	32
-4         	15	29
-5	         17	31
-6	         19	33
-7	         13	27
-8        	20	34
-9       	16	30
-10	      18	32
+1	         14	  28
+2	        16   	30
+3	         18	  32
+4         15  	29
+5	         17 	31
+6	         19 	33
+7	         13	  27
+8        	20	 34
+9       	16	  30
+10	      18	   32
 
 
-DATOS DE PROCESSING.
+codigo DE PROCESSING.
 
-```// respiración animada con color
+// respiración animada con colores
 
 int[] calma = {14, 16, 18, 15, 17, 19, 13, 20, 16, 18};
-int[] panico = {28, 30, 32, 29, 31, 33, 27, 34, 30, 32};
+int[] agitado = {28, 30, 32, 29, 31, 33, 27, 34, 30, 32};
 
 color[] calmaColores = {
   color(255, 182, 193), // rosado pastel
@@ -34,7 +34,7 @@ color[] calmaColores = {
   color(173, 216, 230)  // celeste
 };
 
-color[] panicoColores = {
+color[] agitadoColores = {
   color(180, 0, 0),     // rojo
   color(90, 0, 0),      // rojo oscuro
   color(60, 0, 80),     // morado oscuro
@@ -65,18 +65,18 @@ void draw() {
     circle(x, y, tamaño);
   }
 
-  // PÁNICO (derecha)
-  for (int i = 0; i < panico.length; i++) {
+  // AGITADO (derecha)
+  for (int i = 0; i < agitado.length; i++) {
 
     float x = 600;
     float y = 50 + i * 50;
 
-    float base = map(panico[i], 25, 35, 20, 60);
-    float velocidad = map(panico[i], 25, 35, 0.08, 0.2);
+    float base = map(agitado[i], 25, 35, 20, 60);
+    float velocidad = map(agitado[i], 25, 35, 0.08, 0.2);
     float tamaño = base + sin(frameCount * velocidad) * 10;
 
-    fill(panicoColores[i % panicoColores.length]);
+    fill(agitadoColores[i % agitadoColores.length]);
 
     circle(x, y, tamaño);
   }
-} ```
+}
