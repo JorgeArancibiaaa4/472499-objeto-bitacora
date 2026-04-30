@@ -27,3 +27,9 @@ falta algo??
 en un papel en blanco si no lo intervengo es silencio. en una calle si una pared esta pintada de gris es como un silencio y cuando hay un afiche o tag o grafitti o mancha se quita ese silencio visual. puedo hacer un recorrido de cierto punto hasta otro punto observando las murallas de la calle y contar cada cuanto se me cruza una pared en silencio.
 
 falta algo? falta algo cuando estoy viendo la calle? se puede tomar datos de cuantas tapadas de grafitti hay en la calle, son como un silencio implementado sobre un ruido implementado, pero tampoco queda un silencio total, ya que la mancha de la pintura sobre el muro igual da un ruido visual.
+
+geolocalizacion
+
+el banquete de platón.
+
+un gabinete de aficionados 
